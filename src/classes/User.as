@@ -112,10 +112,9 @@ package classes
         public var keyDown:int = Keyboard.DOWN;
         public var keyUp:int = Keyboard.UP;
         public var keyRight:int = Keyboard.RIGHT;
-        public var keyRestart:int = 191; // Keyboard.SLASH;
+        public var keyRestart:int = Keyboard.SLASH;
         public var keyQuit:int = Keyboard.CONTROL;
         public var keyOptions:int = 145; // Scrolllock
-        public var keyStrum:int = Keyboard.SPACE; // Scrolllock
 
         public var activeNoteskin:int = 1;
         public var activeMods:Array = [];
@@ -130,7 +129,6 @@ package classes
         public var frameRate:int = 60;
         public var forceNewJudge:Boolean = false;
         public var songRate:Number = 1;
-
 
         //- Permissions
         public var isActiveUser:Boolean;
